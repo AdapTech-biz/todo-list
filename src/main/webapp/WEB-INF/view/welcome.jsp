@@ -5,6 +5,7 @@
     <title>To-Do List</title>
 </head>
 <body>
-    <h1>Welcome to your Todo List</h1>
+    <h1>${helloMessage}</h1>
+    <h2>${welcomeMessage}</h2
 </body>
 </html>
