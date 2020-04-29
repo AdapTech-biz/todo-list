@@ -16,6 +16,7 @@
         <lombok.version>1.18.12</lombok.version>
         <spring-webmvc.version>5.2.6.RELEASE</spring-webmvc.version>
         <java.version>10</java.version>
+        <servelet-api.version>4.0.1</servelet-api.version>
     </properties>
 
     <dependencies>
@@ -44,6 +45,12 @@
             <version>${javax.annotations.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servelet-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
